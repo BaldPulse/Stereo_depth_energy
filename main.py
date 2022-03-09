@@ -28,7 +28,7 @@ def load_picture(pic1, pic2, downscale=False, show_image=False):
 
 if __name__=="__main__":
     folder = sys.argv[1]
-    limg, rimg = load_picture(folder+'/im0.png', folder+'/im1.png', downscale=True)
+    limg, rimg = load_picture(folder+'/im0.png', folder+'/im1.png', downscale=False)
     row0 = int(sys.argv[2])
     row1 = int(sys.argv[3])
     print("running with ", folder, " for row", row0, " to ", row1)
