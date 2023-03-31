@@ -1,6 +1,8 @@
-# CSE 273 Winter 2022 final project
+# About this repo
+This repo contains code for UCSD CSE 273 Winter 2022 final project
 by Zhao Yang <zht004@ucsd.edu>
 and Zhengyuan Yang <zhy015@ucsd.edu>
+It maining consists of a depth-from-strteo algorithm based on energy minimization.
 
 The stereo matching algorithm is described in [1]. Implementation refers to the source code [2] linked with the original paper.
 
